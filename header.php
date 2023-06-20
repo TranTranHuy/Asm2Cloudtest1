@@ -26,7 +26,7 @@ ob_start();
     
             <div class="container-fluid">
                 
-            <a href="MYSHOP.php" class="navbar-brand"><figure>
+            <a href="index.php" class="navbar-brand"><figure>
                 <img src="./images/267901914_1144488219424426_8851621994233261185_n.png" width="70px" >
             </figure></a>
 

@@ -64,7 +64,7 @@
         $pstaff = $_POST['Staff_ID'];
         $pSupplier = $_POST['Sup_ID'];
         /*lưu ảnh trong project, không lưu trong ổ c,d */            
-        $storedImage = "../images/";
+        $storedImage = "./images/";
 
         $flag = move_uploaded_file($_FILES['Pro_image']['tmp_name'],$storedImage.$img);
         if($flag){
